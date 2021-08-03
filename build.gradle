@@ -16,7 +16,7 @@ targetCompatibility = 11
 
 dependencies {
     testImplementation(
-            'org.apache.poi:poi-ooxml:4.1.2',
+            'org.apache.poi:poi-ooxml:5.0.0',
             'org.apache.pdfbox:pdfbox:2.0.24',
             'com.codeborne:pdf-test:1.6.1',
             'com.codeborne:xls-test:1.4.3',
