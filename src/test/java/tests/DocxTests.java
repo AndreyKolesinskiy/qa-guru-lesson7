@@ -19,5 +19,7 @@ public class DocxTests {
         XWPFWordExtractor xwpfWordExtractor = new XWPFWordExtractor(document);
         String docxContent = xwpfWordExtractor.getText();
         Assertions.assertThat(docxContent).contains("Selenide = UI Testing Framework powered by Selenium WebDriver");
+
+        System.out.println("Hello, world!");
     }
 }
